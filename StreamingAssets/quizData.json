@@ -54,6 +54,226 @@
       ],
       "correctAnswerIndex": 3,
       "hint": "When you click on an object in your scene, its details appear in this window."
+    },
+    {
+      "question": "What is the purpose of the 'Update' method in a MonoBehaviour script?",
+      "options": [
+        "It's called once when the script instance is being loaded.",
+        "It's called every frame, if the script is enabled.",
+        "It's called when a physics simulation step is about to occur.",
+        "It's called only when the GameObject is first created."
+      ],
+      "correctAnswerIndex": 1,
+      "hint": "This method is ideal for handling continuous game logic, like player input."
+    },
+    {
+      "question": "Which Unity feature is used to create animations?",
+      "options": [
+        "The Profiler",
+        "The Animator Controller",
+        "The Timeline",
+        "The Animation and Animator windows"
+      ],
+      "correctAnswerIndex": 3,
+      "hint": "These two windows work together to create and manage animation clips and their transitions."
+    },
+    {
+      "question": "What does the 'SerializeField' attribute do in a C# script?",
+      "options": [
+        "It makes a public variable hidden in the Inspector.",
+        "It makes a private variable visible and editable in the Inspector.",
+        "It saves the variable's value to a file automatically.",
+        "It converts the variable to a string."
+      ],
+      "correctAnswerIndex": 1,
+      "hint": "This is useful for keeping variables private in code while still allowing designers to adjust them in the editor."
+    },
+    {
+      "question": "In Unity's UI system, what component is used to make a UI element clickable?",
+      "options": [
+        "Image",
+        "Text",
+        "Button",
+        "Canvas"
+      ],
+      "correctAnswerIndex": 2,
+      "hint": "This component has an 'OnClick' event that you can configure to call a function when the element is clicked."
+    },
+    {
+      "question": "What is the primary role of a 'Scene' in Unity?",
+      "options": [
+        "A single level or area of your game.",
+        "A collection of all the assets in your project.",
+        "A container for all your C# scripts.",
+        "A file that stores player preferences."
+      ],
+      "correctAnswerIndex": 0,
+      "hint": "Think of it as a container for all the GameObjects that make up a specific part of your game."
+    },
+    {
+      "question": "Which method is used to instantiate a Prefab at runtime?",
+      "options": [
+        "CreateObject()",
+        "New()",
+        "Instantiate()",
+        "Spawn()"
+      ],
+      "correctAnswerIndex": 2,
+      "hint": "This is a static method of the 'Object' class."
+    },
+    {
+      "question": "What is the purpose of the 'Start' method in a MonoBehaviour script?",
+      "options": [
+        "It's called every frame.",
+        "It's called before the first frame update.",
+        "It's called when the script is enabled.",
+        "It's called when the application quits."
+      ],
+      "correctAnswerIndex": 1,
+      "hint": "This is a good place to initialize variables."
+    },
+    {
+      "question": "Which component is necessary for a GameObject to be visible in the game?",
+      "options": [
+        "Transform",
+        "Mesh Renderer",
+        "Light",
+        "Camera"
+      ],
+      "correctAnswerIndex": 1,
+      "hint": "This component takes the geometry from the Mesh Filter and renders it."
+    },
+    {
+      "question": "How do you get a reference to another component on the same GameObject in a script?",
+      "options": [
+        "FindObjectOfType<>()",
+        "GetComponent<>()",
+        "GetComponentInChildren<>()",
+        "GetComponentInParent<>()"
+      ],
+      "correctAnswerIndex": 1,
+      "hint": "This method searches the current GameObject for a component of a specific type."
+    },
+    {
+      "question": "What is the purpose of 'Time.deltaTime'?",
+      "options": [
+        "The total time the game has been running.",
+        "The time it took to complete the last frame.",
+        "The current time of day.",
+        "The time scale of the game."
+      ],
+      "correctAnswerIndex": 1,
+      "hint": "This value is essential for making movement and other actions frame-rate independent."
+    },
+    {
+      "question": "Which Unity window shows a hierarchical view of all GameObjects in the current Scene?",
+      "options": [
+        "Project",
+        "Inspector",
+        "Console",
+        "Hierarchy"
+      ],
+      "correctAnswerIndex": 3,
+      "hint": "This window allows you to see the parent-child relationships between objects."
+    },
+    {
+      "question": "What is the role of a 'Collider' component?",
+      "options": [
+        "To make an object move.",
+        "To define the physical shape of an object for collisions.",
+        "To render the object's mesh.",
+        "To play sounds."
+      ],
+      "correctAnswerIndex": 1,
+      "hint": "Without this, objects would pass through each other."
+    },
+    {
+      "question": "Which of the following is a value type in C#?",
+      "options": [
+        "string",
+        "int",
+        "object",
+        "class"
+      ],
+      "correctAnswerIndex": 1,
+      "hint": "These types are stored directly on the stack."
+    },
+    {
+      "question": "What does the 'Awake' method do in a MonoBehaviour script?",
+      "options": [
+        "It's called after the 'Start' method.",
+        "It's called when the script instance is being loaded, before 'Start'.",
+        "It's called only when the script is disabled.",
+        "It's called every fixed framerate frame."
+      ],
+      "correctAnswerIndex": 1,
+      "hint": "This method is always called before any 'Start' functions and after all objects are initialized."
+    },
+    {
+      "question": "What is a 'Coroutine' in Unity?",
+      "options": [
+        "A type of component.",
+        "A function that can pause execution and return control to Unity, then continue where it left off on a later frame.",
+        "A way to run code in parallel on multiple threads.",
+        "A special type of variable."
+      ],
+      "correctAnswerIndex": 2,
+      "hint": "These are often used for creating sequences of actions over time."
+    },
+    {
+      "question": "Which component is the main source of audio in a Unity scene?",
+      "options": [
+        "Audio Source",
+        "Audio Listener",
+        "Audio Mixer",
+        "Audio Clip"
+      ],
+      "correctAnswerIndex": 0,
+      "hint": "This component plays back an Audio Clip in the scene."
+    },
+    {
+      "question": "What is the primary purpose of the 'Project' window in the Unity Editor?",
+      "options": [
+        "To view the hierarchy of GameObjects in the scene.",
+        "To display errors, warnings, and other messages from Unity.",
+        "To show and organize the asset files for your project.",
+        "To edit the properties of a selected asset."
+      ],
+      "correctAnswerIndex": 2,
+      "hint": "This window mirrors the 'Assets' folder in your project directory."
+    },
+    {
+      "question": "In C#, which keyword is used to declare a variable that cannot be changed after it's initialized?",
+      "options": [
+        "static",
+        "const",
+        "final",
+        "readonly"
+      ],
+      "correctAnswerIndex": 1,
+      "hint": "This keyword is used for values that are constant at compile-time."
+    },
+    {
+      "question": "What does 'transform.position' represent?",
+      "options": [
+        "The rotation of the GameObject in world space.",
+        "The scale of the GameObject relative to its parent.",
+        "The position of the GameObject in world space.",
+        "The local position of the GameObject relative to its parent."
+      ],
+      "correctAnswerIndex": 2,
+      "hint": "This property is a Vector3 that holds the x, y, and z coordinates of the GameObject."
+    },
+    {
+      "question": "Which of these is NOT a primitive data type in C#?",
+      "options": [
+        "float",
+        "bool",
+        "char",
+        "string"
+      ],
+      "correctAnswerIndex": 3,
+      "hint": "This type is actually a reference type, a sequence of characters."
     }
   ]
 }
