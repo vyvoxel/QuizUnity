@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "question": "In Unity, what is the primary purpose of a GameObject?",
+      "options": [
+        "To write and execute C# scripts.",
+        "To act as a container for components.",
+        "To render graphics directly to the screen.",
+        "To store player data, like score and health."
+      ],
+      "correctAnswerIndex": 1,
+      "hint": "Think about the hierarchical structure you see in the Unity Editor's Hierarchy window."
+    },
+    {
+      "question": "Which C# class must a script inherit from to be attached to a GameObject in Unity?",
+      "options": [
+        "GameObject",
+        "Component",
+        "MonoBehaviour",
+        "Transform"
+      ],
+      "correctAnswerIndex": 2,
+      "hint": "This base class provides access to important game loop functions like Start(), Update(), and Awake()."
+    },
+    {
+      "question": "What is the main function of the 'Prefab' system in Unity?",
+      "options": [
+        "To create user interface (UI) elements.",
+        "To create reusable GameObjects.",
+        "To define the physics properties of an object.",
+        "To organize scenes."
+      ],
+      "correctAnswerIndex": 1,
+      "hint": "Think about how you would efficiently create many copies of the same object, like enemies or bullets."
+    },
+    {
+      "question": "Which component is essential for making a GameObject respond to physics forces?",
+      "options": [
+        "Animator",
+        "Collider",
+        "Rigidbody",
+        "Mesh Renderer"
+      ],
+      "correctAnswerIndex": 2,
+      "hint": "This component adds properties like mass, drag, and gravity to an object."
+    },
+    {
+      "question": "In the Unity Editor, which window is primarily used to view and edit the properties of a selected GameObject?",
+      "options": [
+        "Hierarchy",
+        "Project",
+        "Console",
+        "Inspector"
+      ],
+      "correctAnswerIndex": 3,
+      "hint": "When you click on an object in your scene, its details appear in this window."
+    }
+  ]
+}
